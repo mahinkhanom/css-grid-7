@@ -1,0 +1,43 @@
+
+
+
+
+
+        *{margin: 0;
+            padding: 0;}
+            .container{margin:auto ;
+            max-width: 1000px;
+            }
+        .card-area-start{
+                background-color: brown;
+            padding: 40px 0 50px 0;}
+            
+            
+            
+            .box{background-color: aqua;
+            
+            padding: 50PX 0 50PX 0;
+            border-radius: 100px;}
+            .card{
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+            }
+            .box{background-color: aqua;border: 50px silver;
+            padding: 30px;
+            border-radius: 50px;
+            }
+            .box img{
+                width: 333px;
+                height: 400px;
+            }
+            @media screen and (max-width: 1024px){
+                .card{
+                    grid-template-columns: repeat(4, 1fr);
+                }
+                
+            }
+            @media screen and (max-width:912px) {.card{grid-template-columns: repeat(3, 1fr);}
+                
+            }
+            
+
